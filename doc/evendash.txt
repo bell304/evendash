@@ -1,0 +1,16 @@
+Even Dash Project
+------------------
+
+https://github.com/bell304/evendash
+
+Start the server:
+
+python manage.py runserver 8080
+
+Create new project:
+
+django-admin startproject mysite
+
+Create new web app:
+
+python manage.py startapp polls
