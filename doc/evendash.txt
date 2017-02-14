@@ -3,6 +3,8 @@ Even Dash Project
 
 https://github.com/bell304/evendash
 
+IDE: LiClipse
+
 Start the server:
 
 python manage.py runserver 8080
@@ -14,3 +16,7 @@ django-admin startproject mysite
 Create new web app:
 
 python manage.py startapp polls
+
+Tutorials:
+
+http://www.creativebloq.com/web-design/build-data-dashboard-angularjs-121518544
