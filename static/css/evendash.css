@@ -1,0 +1,10 @@
+.clock-widget {
+  height:150px;
+  width:150px;
+}
+
+/* overriding angular-clock.css */
+.widget-clock .time {
+    font-size: 1.0em;
+}
+
