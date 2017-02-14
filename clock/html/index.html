@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<script src="/static/js/angular.js"></script>    
+<script src="/static/js/angular-clock.js"></script>
+<link rel="stylesheet" href="/static/css/bootstrap.min.css">
+<link rel="stylesheet" href="/static/css/angular-clock.css">
+<link rel="stylesheet" href="/static/css/evendash.css">
+
+</head>
+
+
+<body ng-app = "myapp">
+
+{% verbatim %}
+         <h2>Welcome to the world of clocks!</h2>
+{% endverbatim %}
+
+<div class="clock-widget">
+<ds-widget-clock digital-format="'hh:mm:ss a'"></ds-widget-clock>
+</div>
+
+      <script>
+         
+        angular.module("myapp", ["ds.clock"]).controller("AppCtrl", function ($scope) {
+
+        });
+      </script>
+      
+</body>
+
+</html>
